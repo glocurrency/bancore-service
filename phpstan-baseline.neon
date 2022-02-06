@@ -1,0 +1,67 @@
+parameters:
+	ignoreErrors:
+		-
+			message: "#^Part \\$bank\\-\\>getKey\\(\\) \\(mixed\\) of encapsed string cannot be cast to string\\.$#"
+			count: 1
+			path: src/Exceptions/CreateTransactionException.php
+
+		-
+			message: "#^Cannot cast mixed to string\\.$#"
+			count: 1
+			path: src/Helpers/RecipientFactory.php
+
+		-
+			message: "#^Cannot cast mixed to string\\.$#"
+			count: 1
+			path: src/Helpers/SenderFactory.php
+
+		-
+			message: "#^Call to an undefined static method GloCurrency\\\\Bancore\\\\Models\\\\Bank\\:\\:firstWhere\\(\\)\\.$#"
+			count: 1
+			path: src/Jobs/CreateBankTransactionJob.php
+
+		-
+			message: "#^Call to an undefined static method GloCurrency\\\\Bancore\\\\Models\\\\Transaction\\:\\:create\\(\\)\\.$#"
+			count: 1
+			path: src/Jobs/CreateBankTransactionJob.php
+
+		-
+			message: "#^Call to an undefined static method GloCurrency\\\\Bancore\\\\Models\\\\Transaction\\:\\:firstWhere\\(\\)\\.$#"
+			count: 1
+			path: src/Jobs/CreateBankTransactionJob.php
+
+		-
+			message: "#^Access to an undefined property GloCurrency\\\\Bancore\\\\Models\\\\Transaction\\:\\:\\$processingItem\\.$#"
+			count: 1
+			path: src/Listeners/UpdateProcessingItemStateSubscriber.php
+
+		-
+			message: "#^Access to an undefined property GloCurrency\\\\Bancore\\\\Models\\\\Recipient\\:\\:\\$name\\.$#"
+			count: 1
+			path: src/Models/Recipient.php
+
+		-
+			message: "#^Access to an undefined property GloCurrency\\\\Bancore\\\\Models\\\\Sender\\:\\:\\$name\\.$#"
+			count: 1
+			path: src/Models/Sender.php
+
+		-
+			message: "#^Access to an undefined property GloCurrency\\\\Bancore\\\\Models\\\\Transaction\\:\\:\\$identifierSource\\.$#"
+			count: 1
+			path: src/Models/Transaction.php
+
+		-
+			message: "#^Access to an undefined property GloCurrency\\\\Bancore\\\\Models\\\\Transaction\\:\\:\\$quota\\.$#"
+			count: 1
+			path: src/Models/Transaction.php
+
+		-
+			message: "#^Access to an undefined property GloCurrency\\\\Bancore\\\\Models\\\\Transaction\\:\\:\\$recipient\\.$#"
+			count: 1
+			path: src/Models/Transaction.php
+
+		-
+			message: "#^Access to an undefined property GloCurrency\\\\Bancore\\\\Models\\\\Transaction\\:\\:\\$sender\\.$#"
+			count: 1
+			path: src/Models/Transaction.php
+
