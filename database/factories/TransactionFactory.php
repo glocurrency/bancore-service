@@ -26,13 +26,10 @@ class TransactionFactory extends Factory
      */
     public function definition()
     {
-        $transactionModel = Bancore::$transactionModel;
-        $processingItemModel = Bancore::$processingItemModel;
-
         return [
             'id' => $this->faker->uuid(),
-            'transaction_id' => $transactionModel::factory(),
-            'processing_item_id' => $processingItemModel::factory(),
+            'transaction_id' => (Bancore::$transactionModel)::factory(),
+            'processing_item_id' => (Bancore::$processingItemModel)::factory(),
             'bancore_sender_id' => Sender::factory(),
             'bancore_recipient_id' => Recipient::factory(),
             'identifier_source_type' => Bank::class,
