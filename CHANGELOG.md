@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.1.2](https://www.github.com/glocurrency/bancore-service/compare/v0.1.1...v0.1.2) (2022-11-24)
+
+
+### Miscellaneous Chores
+
+* update description ([9bc1a07](https://www.github.com/glocurrency/bancore-service/commit/9bc1a07733a20512bd5ae7eca05a1e5c37a4d540))
+
 ### [0.1.1](https://www.github.com/glocurrency/bancore-service/compare/v0.1.0...v0.1.1) (2022-02-08)
 
 
