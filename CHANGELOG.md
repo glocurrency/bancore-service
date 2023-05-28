@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.1.3](https://www.github.com/glocurrency/bancore-service/compare/v0.1.2...v0.1.3) (2023-05-28)
+
+
+### Bug Fixes
+
+* blocks 0 ([83a64b3](https://www.github.com/glocurrency/bancore-service/commit/83a64b365596f05e582133714b00670226696374))
+
 ### [0.1.2](https://www.github.com/glocurrency/bancore-service/compare/v0.1.1...v0.1.2) (2022-11-24)
 
 
